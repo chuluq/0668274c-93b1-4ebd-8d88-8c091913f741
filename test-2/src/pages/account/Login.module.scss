@@ -1,0 +1,29 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 16px;
+  margin: 0 auto;
+  row-gap: 32px;
+
+  .loginTitle {
+    font-size: 24px;
+  }
+
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .login {
+    padding: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  .login {
+    padding: 80px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}

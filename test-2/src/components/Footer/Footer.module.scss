@@ -1,0 +1,17 @@
+.footer {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #5aa6ec;
+
+  .logo h6 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    padding: 16px 80px;
+  }
+}
